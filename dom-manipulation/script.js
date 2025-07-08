@@ -103,7 +103,7 @@ function showRandomQuote() {
   displayContainer.classList.add('quoteDisplay');
   displayContainer.classList.add('flex-items');
 
-  displayContainer.textContent = quoteToDisplay.text;
+  displayContainer.innerHTML = quoteToDisplay.text;
 }
 
 function addQuote() {
