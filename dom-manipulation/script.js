@@ -32,7 +32,8 @@ function filterQuotes(entireArray = quotes) {
 }
 
 function populateCategories() {
-  quotes.forEach((quote) => {
+    // map
+    quotes.forEach((quote) => {
     let category = quote["category"];
 
     if (uniqueCategories.indexOf(category) === -1) {
