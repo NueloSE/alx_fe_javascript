@@ -107,6 +107,7 @@ function showRandomQuote() {
 }
 
 function addQuote() {
+    // ["createAddQuoteForm"];
   const quote = document.getElementById("newQuoteText").value;
   let category = document.getElementById("newQuoteCategory").value;
 
