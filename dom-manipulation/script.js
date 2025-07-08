@@ -145,6 +145,7 @@ function downloadQuote() {
 }
 
 function importFromJsonFile(event) {
+    // "application/json";
   const file = event.target.files[0];
   if (!file) {
     console.error("file not loaded");
